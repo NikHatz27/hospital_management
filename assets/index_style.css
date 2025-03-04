@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header Styles */
+header h1 {
+    font-size: 2rem;
+    margin-bottom: -30px;
+    color: #007bff;
+}
+
+/* Main Content Styles */
+main img {
+    width: 300px;
+    height: auto;
+    margin-bottom: -60px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    text-align: left;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message Styles */
+.error-message {
+    background-color: #ffe6e6;
+    padding: 10px;
+    border: 1px solid #ff4d4d;
+    border-radius: 4px;
+    color: #ff4d4d;
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Register Link Styles */
+.register-link {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
